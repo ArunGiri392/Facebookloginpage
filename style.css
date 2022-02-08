@@ -1,0 +1,151 @@
+*{
+    margin:0;
+   
+}
+.form{ 
+    float:right; 
+    margin-right: 20%;
+    width:380px;
+    height:370px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top:-254px;
+}
+input[type=text]{/* It will target all the input elements whose type is text. */
+    width:85%;
+    height:40px;
+    margin-left:20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left:15px;
+}
+
+
+
+.account{
+    width:48%;
+    margin-left:85px;
+    margin-top:35px;
+    height:20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#42b742;
+    padding-left:20px;
+    padding-bottom: 10px;
+    padding-top:15px;
+    color:white;
+    font-size:19px;
+    line-height:16.08px;
+    cursor:pointer;
+}
+
+.account a:hover{
+    background-color: white;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+
+.intro p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left:60px;
+
+}
+.form a{
+    margin-left:123px;
+    color:#458bf2;
+    
+    
+}
+.intro h1{
+    color:#1877f1;
+    font-family :Helvetica, Arial, sans-serif;
+    font-size:50px;
+    font-weight:bold;
+    padding-top: 200px;
+    margin-left:60px;
+    
+
+}
+
+.intro{
+    margin-left: 100px;
+}
+
+.instruction{
+
+    margin-left:685px;
+    margin-top:11%;
+
+}
+footer{
+    background-color:#ffffff;
+    height:160px;
+    margin-top:500px;
+   
+}
+ul{
+    list-style-type:none;
+    }
+.first{
+    /* background-color: red; */
+    margin-left:80px;
+    padding-top:30px;
+    
+}
+.first a, .second a{ /*Will affect the two different <a> at a same time. */
+    padding-left:10px;
+    color:#8a8d91;
+    font-size:12px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight:400
+
+
+
+}
+.second{
+    /* background-color: red; */
+    margin-left:80px;
+    padding-top:10px;
+    
+}
+hr{/*css for the line. */
+    margin-left:130px;
+    margin-right: 135px;
+    color:#737373;
+}
+.test{
+    width:59%;
+    margin-left:20px;
+    height:35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1877f1;
+    padding-left:115px;
+    padding-top:15px;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+   }
+.password{
+    margin-top:20px;
+    
+}
+.password a{
+    text-decoration:None;
+}
+
+.password a:hover{
+    text-decoration:underline;
+}
+.form hr{/*Css for the line in the Footer section. */
+    margin-left:22px;
+    margin-right:22px;
+    color:rgb(28, 30, 33);
+    margin-top:13px;
+    font-size:12px;
+    font-weight:400;
+}
